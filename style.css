@@ -1,0 +1,99 @@
+  :root {
+    --bg: #f2f2f2;
+    --text: #333;
+    --primary: #2196F3;
+    --result: #00796B;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --text: #eee;
+      --primary: #64b5f6;
+      --result: #80cbc4;
+    }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: center;
+    color: var(--text);
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  input[type="number"] {
+    width: 10%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+  }
+
+  
+
+  @media (prefers-color-scheme: dark) {
+    input[type="number"] {
+      background-color: #1e1e1e;
+      color: white;
+      border: 1px solid #555;
+    }
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    color: #000;
+  }
+
+  #parrafito {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--result);
+    text-align: center;
+  }
+
+    #parrafito2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--result);
+    text-align: center;
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      padding: 20px;
+    }
+
+    button {
+      font-size: 18px;
+    }
+  }
+

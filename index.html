@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+        <h1>
+            Calculadora de inflación acumulada
+        </h1>
+    
+    <p>Si algo costaba <input type="number" id="num1"> y ahora cuesta <input type="number" id="num2"> 
+
+        la inflación acumulada es de: <p id="parrafito"></p> </p>
+    </p>
+
+        <button onclick="calculo()">CALCULAR</button>
+
+<div class="meses">
+
+    <p>Si la inflación en los meses siguientes es:</p>
+
+    <ol>
+        Mayo <input type="number" id="mayo2025">
+        Junio <input type="number" id="junio2025">
+        Julio <input type= "number" id="julio2025">
+        Agosto <input type="number" id="agosto2025">
+        Septiembre <input type="number" id="septiembre2025">
+        Octubre <input type="number" id="octubre2025">
+        Noviembre <input type="number" id="noviembre2025">
+        Diciembre <input type="number" id="diciembre2025">
+    </ol>
+
+    <p>La inflación acumulada desde el mes de <select id="meses2024">
+  <option id="junio" value="41.31">Junio de 2024</option>
+  <option id="julio" value="35.10">Julio de 2024</option>
+  <option id="agosto" value="29.91">Agosto de 2024</option>
+  <option id="septiembre" value="24.68">Septiembre de 2024</option>
+  <option id="octubre" value="20.47">Octubre de 2024</option>
+  <option id="noviembre" value="17.31">Noviembre de 2024</option>
+  <option id="diciembre" value="14.57">Diciembre de 2024</option>
+  <option id="enero2" value="11.56">Enero de 2025</option>
+  <option id="febrero2" value="9.16">Febrero de 2025</option>
+  <option id="marzo2" value="6.60">Marzo de 2025</option>
+  <option id="abril2" value="2.8">Abril de 2025</option>
+</select> será de: <p id="parrafito2"></p> </p> <button onclick="calculo2()">CALCULAR</button>
+
+</div>
+
+
+
+    
+</body>
+</html>
